@@ -57,7 +57,7 @@ static uint8_t string_to_uint8_t(const std::string &str,
     return defines.find(str)->second;
   int a = strtol(str.c_str(), NULL, 0);
   if (a < 0)
-    a = 256 - a;
+    a += 256;
   return a;
 }
 

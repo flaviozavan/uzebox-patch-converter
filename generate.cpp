@@ -1,6 +1,7 @@
 #include <vector>
 #include <cstdint>
 #include <algorithm>
+#include <cstdio>
 #include "generate.h"
 #include "waves.h"
 #include "step_table.h"
